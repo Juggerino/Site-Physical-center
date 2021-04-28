@@ -1,0 +1,407 @@
+#body{
+	width: 1080px;
+	height: 1080px;
+	background-color: blue;
+}
+
+#menu{
+	width: 100%;
+	height: 60px;
+}
+
+
+
+.botao{
+	width: 15%;
+	height: 50%;
+	float: left;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+#primeiro{
+	margin-left: 15%;
+
+}
+
+#imagem1{
+	width: 100%;
+	height: 500px;
+	background-color:#B22222;
+}
+
+#imagem1 img{
+	width: 100%;
+	height: 100%;
+}
+
+
+#servicos{
+	width: 100%;
+	height: 300px; 
+	background-color:white;
+}
+
+.opcao{
+	width: 13% ;
+	height: 100%;
+	background-color:white;
+	float: left;
+	margin: 1%;
+	top: -35%;
+	position: relative;
+	box-shadow: 5px 5px 0px 0px #333;
+   -webkit-box-shadow: 5px 5px 5px 5px #333;
+   -moz-box-shadow: 5px 5px 5px 5px #333;
+	
+}
+
+.opcao img{
+	width: 100%;
+	height: 90%;
+	margin-right: 20px;
+}
+
+.transicao {
+	width: 100%;
+	height: 90%;
+	top: -50%;
+	position: relative;
+	opacity: 0;
+}
+
+#primeira_opcao {
+	margin-left: 7%;
+}
+
+.opcao h3{
+	text-align: center;
+	font-size: 15px;
+	padding-top: 0;
+	
+}
+
+#opcao3 p{
+	margin: 15%;
+
+}
+
+#opcao4 p{
+	margin-top: 70%;
+}
+
+.opcao p{
+	font-size: 12px;
+	top: -83%;
+	position: relative;
+	margin-top: 25%;
+	font-size: 0;
+}
+
+
+.opcao:hover p{
+	text-align:center;
+	font-size: 13px;
+	
+}
+
+.opcao:hover{
+	height: 120%;
+	transition-duration: 1s;
+	top: -55%;
+	opacity: 95%
+}
+
+
+
+.opcao:hover img{
+	opacity:0;
+}
+
+.opcao:hover h3{
+	font-size: 0;
+}
+
+#unidade{
+	width: 100%;
+	height: 50%;
+	background-color: yellow;
+	margin-top: -2%;
+}
+
+#unidade1{
+	width: 90%;
+	height: 20%;
+	background-color: #D85817;
+	margin-left: 5%;
+	float: right;
+	
+}
+
+.imagem_unidade{
+	width: 20%;
+	height: 100%;
+	float: right;
+}
+
+#imagem_unidade2{
+	float: left;
+}
+
+.imagem_unidade img{
+	width: 100%;
+	height: 100%;
+}
+
+#unidade2{
+	width: 90%;
+	height: 20%;
+	background-color: #D85817;
+	float: left;
+	margin-right: 5%;
+	margin-top: 2%;
+	
+}
+
+.informacoes{
+	width: 60%;
+	height: 60%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 3%;
+	font-size: 20px
+}
+
+/*far fa-building &#xf1ad;
+fas fa-headset 	&#xf590;
+fas fa-home    	&#xf015;
+fas fa-phone 	&#xf095;
+fas fa-phone-alt	&#xf879;
+fas fa-phone-square	&#xf098;
+fas fa-phone-square-alt	&#xf87b;
+*/
+
+
+#rodape{
+	width: 100%;
+	height: 80%;
+	margin-top: 35%;
+	background-color:#D85817;
+}
+
+
+.carousel-inner{
+	width: 20%;
+	height: 25%;
+	
+}
+
+.carousel-inner img{
+	width: 10%;
+	height: 25%;
+	margin-left: 45%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+.carousel-indicators{
+	top: 90%;
+}
+
+@media screen and (max-width: 1000px){
+	.opcao{
+		width: 25% ;
+		height: 95%;
+		background-color:white;
+		float: left;
+		margin: 1%;
+		top: -35%;
+	}
+	
+	.opcao p{
+		margin-top: 20%;
+	
+	}
+	
+	#opcao3 p{
+		margin-top: 0;
+	}
+	
+	#opcao3{
+		margin-right: 10%;
+	}
+	
+	#primeira_opcao{
+		margin-left: 10%;
+	}
+	
+	#primeiro2{
+		margin-left: 10%; 
+	}
+	
+	#primeiro2 p{
+		margin-top: 45%; 
+	}
+	
+	#opcao4 p{
+		margin-top: 45%; 
+	}
+	
+	#servico p{
+		margin-top: 15%;
+	}
+	
+	.opcao h3{
+	font-size: 12px;
+	padding-top: 2%;
+	}
+	
+	#opcao3 p{
+		margin: 10%;
+	}
+	
+	.opcao:hover{
+		height: 100%;
+	}
+	
+	#unidade1{
+		margin-top: 30%;
+	}
+	
+	
+	#unidade2{
+		width: 90%;
+		height: 5%;
+	
+	}
+	
+	
+	.informacoes{
+		width: 60%;
+		height: 60%;
+		float: left;
+		margin-top: 6%;
+		margin-left: 3%;
+		font-size: 15px;
+	}
+
+	.imagem_unidade{
+		width: 30%;
+		height: 100%;
+	}
+	
+	#rodape{
+		margin-top: 75%;
+    }
+	
+}
+
+@media screen and (max-width: 700px){
+	.botao{
+		width: 25%;
+	}
+
+
+
+	#primeiro{
+		margin-left: 0;
+
+	}
+	
+	
+	#imagem1{
+		height: 400px;
+	}
+	
+	
+	.opcao{
+		width: 35% ;
+		height: 100%;
+		background-color:white;
+		float: left;
+		margin: 5%;
+		top: -35%;
+	}
+
+	#primeira_opcao {
+		margin-left: 10%;
+	}
+	
+		
+	#opcao3{
+		margin-left: 10%;
+	}
+	
+	#opcao4{
+		margin-left: 10%;
+	}
+	
+	#primeiro2{
+		margin-left: 0;
+	}
+	
+		
+	#unidade1{
+		width: 100%;
+		height: 35%;
+		margin-top: 140%;
+		
+	}
+	
+	#unidade2{
+		width: 100%;
+		height: 25%;
+		margin-top: 10%;
+	}
+	
+	.imagem_unidade{
+		width: 30%;
+		height: 120%;
+	}
+	
+	.informacoes{
+		width: 60%;
+		height: 60%;
+		float: left;
+		margin-top: 4%;
+		margin-left: 1%;
+		font-size: 14px;
+	}
+	
+	#rodape{
+		width: 100%;
+		height: 150%;
+		margin-top: 200%;
+    }
+	
+	.carousel-inner{
+		width: 20%;
+		height: 25%;
+		
+	}
+
+	.carousel-inner img{
+		width: 20%;
+		height: 25%;
+		margin-left: 40%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+
+	.carousel-indicators{
+		top: 90%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
